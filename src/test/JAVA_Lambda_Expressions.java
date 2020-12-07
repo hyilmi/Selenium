@@ -45,11 +45,7 @@ public class JAVA_Lambda_Expressions {
 		}else {
 			System.out.println("Hilmi is not in the list");
 		}
-		
-		
-		
-		
-		
+				
 		
 
 	}
