@@ -1,0 +1,52 @@
+Testing a Vending Machine (VM)
+
+MAIN FUNCTIONS
+--------------
+1. Money input
+    -Test if the VM accepts 1,2,5,10,25,50 cents and 1, 2 euro coins
+    -Test if the VM accepts 5, 10, 20, 50, 100, 200, 500 euro banknotes
+    -Test if the VM accepts payment with a debit/credit card
+    -Test if the VM accepts contactless payment with debit/credit card
+    -Test if the screen displays the correct amount of money fed to the VM
+    -Test if money can be deposited before making a selection
+    
+2. Item and amount selection
+    If the VM has a keypad for selecting an item:
+    -Test if all buttons on the keypad can be pushed
+    -Test if the symbol on the button is displayed on the screen after pushing said button
+    -Test if every item in the VM can be selected by entering its code on the keypad
+    -Test if the desired amount can be selected
+    -Test if the VM displays a message if the selected item is depleted
+
+    If the VM has individual buttons for each item:
+    -Test if all buttons can be pushed
+    -Test if the correct item is selected after pushing its corresponding button
+    -Test if every item in the VM can be selected by pushing its corresponding button
+    -Test if the VM displays a message if the selected item is depleted
+
+
+    -Test if a selection can be made before depositing money    
+
+
+3. Vending
+    -Test if the VM vends the selected item before depositing any money into the VM
+    -Test if the VM vends the selected item when the necessary amount of money is deposited into the VM
+    -Test if the VM vends the correct amount of an item
+    -Test if the VM can vend every item
+
+4. Change return
+    -Test if the VM returns the correct amount of change if more than the necessary amount was deposited
+    -Test if the VM returns change according to the banknotes and coins it currently has in its cash deposit
+    -Test if the VM returns change starting from the biggest banknote or coin (i.e. make sure it doesn't return 5 euro change in 1 cents)
+    
+
+PASSIVE FUNCTIONS
+-----------------
+1. Resistance against environmental factors
+   -Test if the VM still functions in the rain, in the cold or in the heat
+   -Test if the VM keeps its internal temperature in these situations
+
+2. Security
+   -Test if the items inside the VM can be accessed with brute force (i.e. accessing through the item deposit, tilting the VM)
+   -Test if the cash deposit can be accessed with brute force
+
